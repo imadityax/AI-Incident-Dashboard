@@ -42,10 +42,18 @@ export default function Index() {
           className="h-16 w-16 mr-4"
         /> */}
         <span className="text-2xl font-bold text-black dark:text-white mr-4 font-heading">
-  SPARKLE <span className="text-[#C68EFD] dark:text-[#C68EFD] font-serif">HOOD</span></span>
+    SPARKLE <span className="text-[#A35C7A] dark:text-[#657C6A] font-bold font-serif">HOOD</span>
+  </span>
+  <img src="logo.png" alt="Logo" className="h-6 w-7 mr-1" />
         <h1 className="text-2xl font-bold font-heading flex-grow text-right">
           AI Safety Incident Dashboard
         </h1>
+        <div className="flex items-center">
+  <h1 className="text-2xl font-bold font-heading flex-grow text-right">
+    {/* Your h1 content here */}
+  </h1>
+</div>
+
       </div>
       
       <div className="mb-8">
